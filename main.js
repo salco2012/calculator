@@ -38,7 +38,9 @@ function back() {
 
 function equal() {
   const valueInput = document.form.calculator_display.value;
-  if (valueInput) {
+  if (valueInput < 1) {
     document.form.calculator_display.value = eval(valueInput).toFixed(1);
+  } else {
+    document.form.calculator_display.value = eval(valueInput);
   };
 };
