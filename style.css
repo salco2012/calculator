@@ -18,9 +18,7 @@ max-width: 360px;
 background-color: #FF6666;
 border-radius: 15px;
 position: absolute;
-top: 50%;
-left: 50%;
-transform: translate(-50%, -50%);
+margin: 50px auto;
 user-select: none;
 box-shadow: 0 0 10px rgba(0,0,0,0.5);
 }
